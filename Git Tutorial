@@ -3,3 +3,13 @@
 // To configure name and email 
 git config [--global] user.name="<any_username>"
 git config [--global] user.email="<your_email>"
+
+// If we have modified the repo files from other system or directly to the github, then to bring that changes to local repo use commandgit pull <url_to_repo> <branch>
+Eg: git pull https://github.com/my_github_repo master
+
+// If we want to clone a repository to local system
+git clone <url_to_repository>
+ 
+// clone the repository but from a different branch
+git clone --branch <branch> <url_to_repository>
+Eg: git clone --branch master https://github.com/github_repo
