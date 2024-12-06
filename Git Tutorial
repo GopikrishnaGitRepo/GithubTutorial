@@ -1,5 +1,9 @@
 // [] indicates optional and <> indicates your input
 
+|test|test|
+|:--|--:|
+
+
 // To configure name and email 
 git config [--global] user.name="<any_username>"
 git config [--global] user.email="<your_email>"
