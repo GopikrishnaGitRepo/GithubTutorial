@@ -13,3 +13,6 @@ git clone <url_to_repository>
 // clone the repository but from a different branch
 git clone --branch <branch> <url_to_repository>
 Eg: git clone --branch master https://github.com/github_repo
+
+// to switch from one branch to another
+git checkout <branch_name>
