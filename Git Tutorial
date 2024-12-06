@@ -16,3 +16,12 @@ Eg: git clone --branch master https://github.com/github_repo
 
 // to switch from one branch to another
 git checkout <branch_name>
+
+---> git push origin main
+Error:
+ error: src refspec main does not match any
+ error: failed to push some refs to 'https://github.com/GopikrishnaGitRepo/GoLang.git'
+Sol:
+ Git cannot fint the branch main in the local repository to push to github
+ > git branch 
+ > git checkout main
